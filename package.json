@@ -2,18 +2,30 @@
   "name": "keep-alive-react",
   "version": "0.0.1",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib"
   ],
+  "keywords": [
+    "keep alive",
+    "react",
+    "react alive item",
+    "react keep alive",
+    "react hooks"
+  ],
+  "homepage": "https://github.com/kakachake/keep-alive-react",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  },
+  "author": "kakachake",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
